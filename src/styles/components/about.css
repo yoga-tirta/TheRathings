@@ -1,0 +1,110 @@
+/* ==================== ABOUT US ========================= */
+
+.about-therathings {
+  padding: 80px 36px;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #fafafa;
+  border-bottom: 1px solid var(--grey-color);
+}
+
+.therathings-logo img{
+  width: 320px;
+  box-shadow: 0px 0px 10px 5px var(--shadow);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.therathings-description {
+  padding: 24px;
+  padding-right: 160px;
+}
+
+.therathings-description h1 {
+  margin-bottom: 16px;
+  font-size: 32px;
+  color: var(--second-color);
+}
+
+.about-team {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: var(--grey-f2);
+  padding: 48px 128px
+}
+
+.team-description {
+  margin-bottom: 48px;
+}
+
+.team-description h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: var(--second-color);
+}
+
+.team-profile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 400px);
+  gap: 56px;
+  row-gap: 40px;
+}
+
+.card-profile {
+  width: 16rem;
+  box-shadow: 0px 0px 10px 5px var(--shadow);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-profile:hover {
+  box-shadow: 0px 0px 20px 10px var(--shadow);
+  transition: all ease .5s;
+}
+
+.card-profile img {
+  background-color: var(--main-color);
+  border: 0.2rem solid var(--second-color);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 24px;
+}
+
+.card-profile h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--second-color);
+}
+
+.card-profile h2 {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.team-icon {
+  padding: 4px;
+}
+
+.team-icon a {
+  font-size: 2em;
+  padding: 6px;
+  color: var(--main-color);
+}
+
+.team-icon a:hover {
+  color: var(--main-dark);
+  transition: 0.4s;
+}
